@@ -220,7 +220,12 @@ function numerosPares(n) {
  */
 function sumaArray(numeros) {
   // TODO: Suma todos los elementos del array
-  return 0;
+  sumaElemtentos = 0
+  for(i = 0; i < numeros.length; i++) {
+    sumaElemtentos = sumaElemtentos + numeros[i]
+
+  }
+  return sumaElemtentos;
 }
 
 /**
@@ -230,7 +235,14 @@ function sumaArray(numeros) {
  */
 function promedioArray(numeros) {
   // TODO: Calcula el promedio (suma total / cantidad de elementos)
-  return 0;
+  promedio = 0
+  suma = 0
+  for(i = 0; i < numeros.length; i++){
+    suma = suma + numeros[i]
+  }
+  promedio = suma / numeros.length
+
+  return promedio;
 }
 
 /**
