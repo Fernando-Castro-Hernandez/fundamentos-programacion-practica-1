@@ -151,7 +151,13 @@ function clasificarEdad(edad) {
  */
 function factorial(n) {
   // TODO: Implementa usando un bucle for
-  return 1;
+  i = 0
+  resultado = 1
+  for(i = 1; n >= i; i++) {
+    resultado = resultado * i
+  }
+  return resultado
+
 }
 
 /**
