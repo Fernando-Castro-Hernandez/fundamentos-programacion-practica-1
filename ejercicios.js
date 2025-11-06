@@ -298,7 +298,6 @@ function invertirArray(arr) {
     invertido[i] = arr[arr.length - 1 - i]
   }
 
-
   return invertido;
 }
 
@@ -318,6 +317,15 @@ function invertirArray(arr) {
 function crearMatriz(filas, columnas) {
   // TODO: Crea una matriz de filas x columnas llena de ceros
   const matriz = [];
+  
+  for(i = 0; i < filas; i++){
+    filardas = []    
+    for(j = 0; j < columnas; j++) {
+      filardas.push(0)
+    }
+    matriz.push(filardas)
+  }
+
   return matriz;
 }
 
@@ -330,6 +338,9 @@ function crearMatriz(filas, columnas) {
 function sumaMatriz(matriz) {
   // TODO: Suma todos los elementos de la matriz
   // NecesitarÃ¡s dos bucles: uno para las filas y otro para las columnas
+  
+
+
   return 0;
 }
 
